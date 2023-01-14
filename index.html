@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="shortcut icon" href="https://facebook.com/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+              background-color: #f0f8fb;
+        }
+        .center {
+                    display: block;
+                    margin-left: auto;
+                     margin-right: auto;
+                    width: 20%;
+                }
+        div{
+             
+             display : flex; justify-content : center; (x-axis) align-items : center; (y-axis)
+             
+                   
+        }
+        form  { 
+                    margin-top:0px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 30%;
+                    background-color: white; 
+                    box-shadow: 1px 10px 10px 10px lightgrey;
+                    border-radius: 5px;
+                    padding: 20px;
+                }
+        .a{
+             text-align: center;
+             font-size: 25px;
+             font-weight: bold;
+        }
+        h5{
+            text-align: center;
+        }
+        .text{
+            font-size: 13px;
+            font-family: Arial;
+            color:rgba(51, 42, 42, 0.737);
+        }
+        p{
+            font-size:12px;
+            color:grey;
+        }
+        .ftlink{
+            text-align: center;
+            color:blue;
+            
+        }
+        .box{
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             width: 100%;
+             margin: 5px;
+             border: 1px solid lightgrey;
+             padding: 5px;
+             border-radius: 5px;
+        }
+        label{
+            
+            background-color: white;
+            border: 1px solid lightgrey;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .radio{
+            float: right;
+            margin: 5px;
+            padding: 5px;  
+        }
+        
+          
+        .signup{
+                    display: block;
+                    margin-left: auto;
+                     margin-right: auto;
+                    width: 50%;
+                    background-color: #00a400; 
+                    padding: 5px;
+                    border-radius: 5px; 
+                    color:white;
+                    font-weight: bold;
+                }
+                button:hover {
+  background-color: #1c930f;
+}
+        
+    </style>
+
+	<title>Sign up for Facebook | Facebook</title>
+</head>
+
+<body>
+
+	<div>Facebook Sign up clone</div>
+  
+    <img src="assets/facebook-logo.png" height="360" width="1023" class="center">
+	<!-- write your code here -->
+      <form>
+    <h1 class="a">Create a new account</h1>
+    <h5>It's quick and easy</h6>
+    <Br>
+    <hr>
+    
+    <div>
+    <input type="text" placeholder="First name" name="First_name" class="box">
+    <input type="text" placeholder="Last name" name="Last_name" class="box">
+    </div>
+
+    <div>
+    <input type="email" placeholder="example@email.com" name="email" class="box">
+    </div>
+
+    <div>
+    <input type="password" placeholder="New Password" name="password" class="box">
+    </div>
+
+    <h6 class="text">Date of Birth</h6>
+    <div>
+    <input type="date" id="Dob" name="dob" class="box" placeholder="mm-dd-yyyy">
+    </div>
+
+    <h6 class="text">Gender</h6>
+    <div>
+    <label for="male">Male
+    <input type="radio" id="male" name="gender" class="radio">
+    </label>
+    
+    <label for="female">Female
+    <input type="radio" id="female"  name="gender" class="radio">
+    </label>
+    
+    <label for="other">Custom
+    <input type="radio" id="other" name="gender" class="radio">
+    </label>
+    
+    </div>
+    
+    <footer>
+        <p>People who use our service may have uploaded  your contact information to Facebook.<a href="" style="color:blue"> Learn more.</a></p>
+        <br>
+
+        <p>By clicking Sign Up, you agree to terms, Data Policy and Cookie Policy. You may receive SMS notofications form us and can opt out at any time.</p>
+        <br>
+        <a href=""><button class="signup">Sign up</button></a>
+        <br>
+        <a href=""><h6 class="ftlink">Already have an account ?</h6></a>
+        
+    </footer>
+    </form>
+
+</body>
+
+</html>
